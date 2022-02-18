@@ -2,15 +2,16 @@ name: custom theme
 type: theme
 base theme: classy
 Core: 8.x
+core_version_requirement: ^8 || ^9
 libraries:
   - custom_theme/global-styling-and-scripts
 regions:
-header: Header
-primary_menu: 'Primary menu'
-secondary_menu: 'Secondary menu'
-page_top: 'Page top'
-page_bottom: 'Page bottom'
-highlighted: Highlighted
-featured_top: 'Featured top'
-breadcrumb: Breadcrumb
-content: 'Content'
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: Highlighted
+  featured_top: 'Featured top'
+  breadcrumb: Breadcrumb
+  content: 'Content'
